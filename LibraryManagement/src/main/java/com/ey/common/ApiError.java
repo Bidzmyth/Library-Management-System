@@ -1,5 +1,6 @@
 package com.ey.common;
 
-public class ApiError {
 
-}
+public record ApiError(String timestamp, int status, String code, String message) {}
+
+

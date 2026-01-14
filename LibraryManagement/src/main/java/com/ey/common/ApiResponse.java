@@ -1,5 +1,3 @@
 package com.ey.common;
 
-public class ApiResponse {
-
-}
+public record ApiResponse<T>(String message, T data) {}

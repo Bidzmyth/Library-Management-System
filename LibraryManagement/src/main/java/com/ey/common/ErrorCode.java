@@ -1,5 +1,3 @@
 package com.ey.common;
+public enum ErrorCode { VALIDATION_FAILED, AUTH_REQUIRED, ACCESS_DENIED, INVALID_CREDENTIALS, USERNAME_TAKEN, ITEM_NOT_FOUND, COPY_UNAVAILABLE, HOLD_EXISTS }
 
-public class ErrorCode {
-
-}
