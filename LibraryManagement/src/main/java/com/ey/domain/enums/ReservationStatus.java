@@ -1,5 +1,3 @@
 package com.ey.domain.enums;
 
-public enum ReservationStatus {
-
-}
+public enum ReservationStatus {ACTIVE, CANCELLED, FULFILLED}

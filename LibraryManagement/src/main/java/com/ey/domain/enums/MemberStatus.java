@@ -1,5 +1,3 @@
 package com.ey.domain.enums;
 
-public enum MemberStatus {
-
-}
+public enum MemberStatus {ACTIVE , SUSPENDED}
